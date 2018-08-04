@@ -27,7 +27,7 @@
 		</div>
 	</nav>
 
-	<button type="button" class="btn btn-primary btn_modal"
+	<button type="button" class="btn btn-primary" id="btn_modal"
 		data-toggle="modal" data-target="#exampleModalCenter"
 		style="display: none;"></button>
 	<div class="modal fade bd-example-modal-sm" id="exampleModalCenter"

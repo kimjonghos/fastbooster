@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="col-xs-6 login_col_btn">
-				<button type="submit" id="loginInput_login_btn"	class="btn btn-md login_btn">로그인</button>
+				<button type="submit" id="login_btn" class="btn btn-md login_btn">로그인</button>
 			</div>
 		</div>
 	</form>

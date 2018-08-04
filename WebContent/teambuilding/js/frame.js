@@ -3,7 +3,5 @@
 	});
 	
 	$(".commingSoon").click(function(e) {
-		$(".btn_modal").click();
+		$("#btn_modal").click();
 	});
-	
-	

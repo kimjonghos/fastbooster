@@ -3,8 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
 	<div class="row profile_row_pic">
@@ -38,7 +36,7 @@
 			<form action="myApplication.do" method="post">
 				<input type="hidden" name="memberId" value="${sessionScope.memberBean.memberId }">
 				<input type="hidden" name="job" value="myApplication">
-				<button type="submit" class="btn btn-md btn_profile my_application">0</button>
+				<button type="submit" id="my_application" class="btn btn-md btn_profile">0</button>
 			</form>
 		</div>
 		<div class="col-xs-4 profile_col">

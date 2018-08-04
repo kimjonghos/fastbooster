@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.col_container {
+	width: 860px;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	border-radius: 7px;
+}
+
+.my_application_row {
+	margin: auto;
+}
+
+.my_application_text_title {
+	margin: 30px auto; 
+}
+
+.table_whole {
+	margin: auto;
+	margin-right: 110px; 
+	width: 700px;
+}
+
+.table {
+	font-size: 23px;
+	text-align: center;
+	border: none;
+}
+
+.table th {
+	border: none;
+}

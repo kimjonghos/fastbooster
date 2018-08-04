@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<properties resource="com/teamwith15/config/db.properties" />
+	<settings>
+	 <setting name="jdbcTypeForNull" value="VARCHAR" />
+	</settings>
+	<typeAliases>
+		<typeAlias alias="ApplicationDTO" type="com.teamwith15.dto.ApplicationDTO" />
+		<typeAlias alias="CareerDTO" type="com.teamwith15.dto.CareerDTO" />
+		<typeAlias alias="CommentDTO" type="com.teamwith15.dto.CommentDTO" />
+		<typeAlias alias="FaqDTO" type="com.teamwith15.dto.FaqDTO" />
+		<typeAlias alias="InterviewAnswerDTO" type="com.teamwith15.dto.InterviewAnswerDTO" />
+		<typeAlias alias="InterviewQuestionDTO" type="com.teamwith15.dto.InterviewQuestionDTO" />
+		<typeAlias alias="LicenseDTO" type="com.teamwith15.dto.LicenseDTO" />
+		<typeAlias alias="MemberDTO" type="com.teamwith15.dto.MemberDTO" />
+		<typeAlias alias="MemberPraiseDTO" type="com.teamwith15.dto.MemberPraiseDTO" />
+		<typeAlias alias="MemberProjectCategoryDTO" type="com.teamwith15.dto.MemberProjectCategoryDTO" />
+		<typeAlias alias="MemberSkillDTO" type="com.teamwith15.dto.MemberSkillDTO" />
+		<typeAlias alias="MemberTendencyDTO" type="com.teamwith15.dto.MemberTendencyDTO" />
+		<typeAlias alias="PologDTO" type="com.teamwith15.dto.PologDTO" />
+		<typeAlias alias="PortfolioContentDTO" type="com.teamwith15.dto.PortfolioContentDTO" />
+		<typeAlias alias="PortfolioDTO" type="com.teamwith15.dto.PortfolioDTO" />
+		<typeAlias alias="RecruitDTO" type="com.teamwith15.dto.RecruitDTO" />
+		<typeAlias alias="RequireSkillDTO" type="com.teamwith15.dto.RequireSkillDTO" />
+		<typeAlias alias="TeamDTO" type="com.teamwith15.dto.TeamDTO" />
+		
+		<typeAlias alias="ApplicantVO" type="com.teamwith15.vo.ApplicantVO" />
+		<typeAlias alias="ApplicationVO" type="com.teamwith15.vo.ApplicationVO" />
+		<typeAlias alias="CareerVO" type="com.teamwith15.vo.CareerVO" />
+		<typeAlias alias="CommentVO" type="com.teamwith15.vo.CommentVO" />
+		<typeAlias alias="FaqVO" type="com.teamwith15.vo.FaqVO" />
+		<typeAlias alias="InterviewVO" type="com.teamwith15.vo.InterviewVO" />
+		<typeAlias alias="LicenseVO" type="com.teamwith15.vo.LicenseVO" />
+		<typeAlias alias="MainProfileVO" type="com.teamwith15.vo.MainProfileVO" />
+		<typeAlias alias="MemberCommentVO" type="com.teamwith15.vo.MemberCommentVO" />
+		<typeAlias alias="MemberPraiseCntVO" type="com.teamwith15.vo.MemberPraiseCntVO" />
+		<typeAlias alias="MemberPraiseVO" type="com.teamwith15.vo.MemberPraiseVO" />
+		<typeAlias alias="MemberProjectCategoryVO" type="com.teamwith15.vo.MemberProjectCategoryVO" />
+		<typeAlias alias="MemberSearchVO" type="com.teamwith15.vo.MemberSearchVO" />
+		<typeAlias alias="MemberSimpleVO" type="com.teamwith15.vo.MemberSimpleVO" />
+		<typeAlias alias="MemberSkillVO" type="com.teamwith15.vo.MemberSkillVO" />
+		<typeAlias alias="MemberTendencyVO" type="com.teamwith15.vo.MemberTendencyVO" />
+		<typeAlias alias="MemberVO" type="com.teamwith15.vo.MemberVO" />
+		<typeAlias alias="MyApplicationVO" type="com.teamwith15.vo.MyApplicationVO" />
+		<typeAlias alias="PologVO" type="com.teamwith15.vo.PologVO" />
+		<typeAlias alias="PortfolioContentVO" type="com.teamwith15.vo.PortfolioContentVO" />
+		<typeAlias alias="PortfolioSimpleVO" type="com.teamwith15.vo.PortfolioSimpleVO" />
+		<typeAlias alias="PortfolioVO" type="com.teamwith15.vo.PortfolioVO" />
+		<typeAlias alias="RecruitVO" type="com.teamwith15.vo.RecruitVO" />
+		<typeAlias alias="RequireSkillVO" type="com.teamwith15.vo.RequireSkillVO" />
+		<typeAlias alias="TeamDetailVO" type="com.teamwith15.vo.TeamDetailVO" />
+		<typeAlias alias="TeamLeaderVO" type="com.teamwith15.vo.TeamLeaderVO" />
+		<typeAlias alias="TeamSimpleVO" type="com.teamwith15.vo.TeamSimpleVO" />
+		<typeAlias alias="TeamSkillVO" type="com.teamwith15.vo.TeamSkillVO" />
+		
+		<typeAlias alias="Criteria" type="com.teamwith15.util.Criteria" />
+	</typeAliases>
+	<!-- DB Setting -->
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}" />
+				<property name="url" value="${url}" />
+				<property name="username" value="${username}" />
+				<property name="password" value="${password}" />
+			</dataSource>
+		</environment>
+	</environments>		
+	
+	<mappers>
+		<mapper resource="com/teamwith15/mapper/ApplicantMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/ApplicationMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/CareerMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/CommentMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/FaqMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/InterviewAnswerMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/InterviewMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/InterviewQuestionMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/LicenseMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MainProfileMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/MemberCommentMapper.xml" />				
+		<mapper resource="com/teamwith15/mapper/MemberMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MemberPraiseMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MemberProjectCategoryMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MemberSearchMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MemberSkillMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MemberTendencyMapper.xml" />		
+		<mapper resource="com/teamwith15/mapper/MyApplicationMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/PologMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/PortfolioContentMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/PortfolioMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/PortfolioSimpleMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/RecruitMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/RequireSkillMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/TeamDetailMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/TeamLeaderMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/TeamMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/TeamSimpleMapper.xml" />
+		<mapper resource="com/teamwith15/mapper/TeamSkillMapper.xml" />
+	</mappers>
+</configuration>

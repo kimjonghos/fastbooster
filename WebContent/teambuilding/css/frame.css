@@ -20,6 +20,13 @@ body {
 	font-family: yanoljaBold;
 }
 
+.home_container {
+	width: 1100px;
+	padding: 0;
+	margin: 110px auto 0 auto;
+	max-width: none !important;
+}
+
 .menu_bar {
 	width: 1100px;
 	height: 110px;
@@ -201,6 +208,38 @@ body {
 
 .text_blue {
 	color: #002b5a;
+}
+
+.side_container {
+	width: 230px;
+	position: fixed;
+	top: 110px;
+	margin-left: 870px;
+}
+
+.row_whole {
+	width: 1100px;
+	margin: 10px 0 0 0;
+}
+
+.side_row_whole {
+	width: 230px;
+	margin: 0;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border-radius: 7px;
+}
+
+.main_row {
+	width: 860px;
+	margin: 0 10px 10px 0;
+	background-color: #ffffff;
+	border-radius: 7px;
+}
+
+.main_container {
+	width: 860px;
+	margin-right: 10px;	
 }
 
 .main_portfolio_row_whole {

@@ -43,5 +43,5 @@
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
-<script src="/teambuilding/js/main.js"></script>
+<script src="/teambuilding/js/frame.js"></script>
 </html>

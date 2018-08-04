@@ -22,49 +22,10 @@
 	border-color: #ff4111;
 }
 
-.home_container {
-	width: 1100px;
-	padding: 0;
-	margin: 110px auto 0 auto;
-	max-width: none !important;
-}
-
-.row_whole {
-	width: 1100px;
-	margin: 10px 0 0 0;
-}
-
-.main_container {
-	width: 860px;
-	margin-right: 10px;	
-}
-
-.side_container {
-	width: 230px;
-	position: fixed;
-	top: 110px;
-	margin-left: 870px;
-}
-
-.side_row_whole {
-	width: 230px;
-	margin: 0;
-	margin-bottom: 10px;
-	background-color: #ffffff;
-	border-radius: 7px;
-}
-
 .profile_row_btn {
 	height: auto;
 	margin: 15px 0;
 	padding: 0 45px;
-}
-
-.main_row {
-	width: 860px;
-	margin: 0 10px 10px 0;
-	background-color: #ffffff;
-	border-radius: 7px;
 }
 
 .label_no_exist {

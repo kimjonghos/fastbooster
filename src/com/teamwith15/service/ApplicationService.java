@@ -1,4 +1,4 @@
-//ÀÛ¼ºÀÚ : È²±ÔÁø
+//ï¿½Û¼ï¿½ï¿½ï¿½ : È²ï¿½ï¿½ï¿½ï¿½
 package com.teamwith15.service;
 
 import java.io.IOException;
@@ -27,7 +27,6 @@ import com.teamwith15.vo.MemberSearchVO;
 import com.teamwith15.vo.MyApplicationVO;
 
 public class ApplicationService {
-	private String mustDelete;
 	private static ApplicationService applicationService;
 	static {
 		applicationService=new ApplicationService();

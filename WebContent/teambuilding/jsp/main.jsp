@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/teambuilding/css/frame.css">
 <link rel="stylesheet" href="/teambuilding/css/main.css">
 </head>
 <body>

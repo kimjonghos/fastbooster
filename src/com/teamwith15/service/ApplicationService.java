@@ -27,7 +27,6 @@ import com.teamwith15.vo.MemberSearchVO;
 import com.teamwith15.vo.MyApplicationVO;
 
 public class ApplicationService {
-	private String teamwith;
 	private static ApplicationService applicationService;
 	static {
 		applicationService=new ApplicationService();

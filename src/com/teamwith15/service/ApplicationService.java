@@ -27,6 +27,7 @@ import com.teamwith15.vo.MemberSearchVO;
 import com.teamwith15.vo.MyApplicationVO;
 
 public class ApplicationService {
+	private String mustDelete;
 	private static ApplicationService applicationService;
 	static {
 		applicationService=new ApplicationService();

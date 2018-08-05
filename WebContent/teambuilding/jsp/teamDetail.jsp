@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>팀 상세보기</title>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/teambuilding/css/frame.css">
 <link rel="stylesheet" href="/teambuilding/css/teamDetail.css">

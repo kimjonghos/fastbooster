@@ -1,5 +1,8 @@
 package com.teamwith15.dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.teamwith15.vo.RequireSkillVO;
 
 public class RequireSkillDTO {
@@ -27,7 +30,9 @@ public class RequireSkillDTO {
 	}
 	
 	public RequireSkillVO toVO() {
-		RequireSkillVO vo = new RequireSkillVO(recruitId, skillId);
+		List<RequireSkillDTO> temp=new ArrayList<RequireSkillDTO>();
+		temp.add(this);
+		RequireSkillVO vo = new RequireSkillVO(temp);
 		return vo;
 	}
 	

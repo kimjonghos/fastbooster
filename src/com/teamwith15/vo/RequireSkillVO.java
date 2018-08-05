@@ -1,38 +1,55 @@
 package com.teamwith15.vo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.teamwith15.dto.RequireSkillDTO;
 
 public class RequireSkillVO {
 	private String recruitId;
-	private String skillId;
-	public RequireSkillDTO toDTO() {
-		RequireSkillDTO requireSkillDTO = new RequireSkillDTO();
-		requireSkillDTO.setRecruitId(recruitId);
-		requireSkillDTO.setSkillId(skillId);
-		return requireSkillDTO;
+	private List<String> skillIds;
+	
+	public List<RequireSkillDTO> toDTO() {
+		List<RequireSkillDTO> result=new ArrayList<RequireSkillDTO>();
+		for(String skill : skillIds) {
+			RequireSkillDTO dto=new RequireSkillDTO(recruitId,skill);
+			result.add(dto);
+		}
+		
+		return result;
 	}
 	public RequireSkillVO() {
 		super();
+		skillIds=new ArrayList<String>();
 	}
-	public RequireSkillVO(String recruitId, String skillId) {
-		super();
-		this.recruitId = recruitId;
-		this.skillId = skillId;
+	public RequireSkillVO(List<RequireSkillDTO> dtos) {
+		skillIds=new ArrayList<String>();
+		if(dtos!=null) {
+			for(RequireSkillDTO dto : dtos) {
+				recruitId=dto.getRecruitId();
+				skillIds.add(dto.getSkillId());
+			}
+		}
+	}
+	public RequireSkillVO(String recruitId, List<String> skillIds) {
+		this.recruitId=recruitId;
+		this.skillIds=skillIds;
 	}
 	public String getRecruitId() {
 		return recruitId;
 	}
+	public List<String> getSkillIds() {
+		return skillIds;
+	}
 	public void setRecruitId(String recruitId) {
 		this.recruitId = recruitId;
 	}
-	public String getSkillId() {
-		return skillId;
-	}
-	public void setSkillId(String skillId) {
-		this.skillId = skillId;
+	public void setSkillIds(List<String> skillIds) {
+		this.skillIds = skillIds;
 	}
 	@Override
 	public String toString() {
-		return "RequireSkillVO [recruitId=" + recruitId + ", skillId=" + skillId + "]";
+		return "RequireSkillVO [recruitId=" + recruitId + ", skillIds=" + skillIds + "]";
 	}
+	
 }

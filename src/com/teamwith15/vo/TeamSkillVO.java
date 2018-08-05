@@ -1,38 +1,44 @@
 package com.teamwith15.vo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TeamSkillVO {
-	private String teamId;
-	private String roleId;
-	private String skillId;
+	private String teamId; 
+	private String roleId; 
+	private List<String> skillIds;
+	
 	public TeamSkillVO() {
 		super();
+		skillIds=new ArrayList<String>();
 	}
-	public TeamSkillVO(String teamId, String roleId, String skillId) {
+	public TeamSkillVO(String teamId, String roleId, List<String> skillIds) {
 		super();
 		this.teamId = teamId;
 		this.roleId = roleId;
-		this.skillId = skillId;
+		this.skillIds = skillIds;
 	}
 	public String getTeamId() {
 		return teamId;
 	}
-	public void setTeamId(String teamId) {
-		this.teamId = teamId;
-	}
 	public String getRoleId() {
 		return roleId;
+	}
+	public List<String> getSkillIds() {
+		return skillIds;
+	}
+	public void setTeamId(String teamId) {
+		this.teamId = teamId;
 	}
 	public void setRoleId(String roleId) {
 		this.roleId = roleId;
 	}
-	public String getSkillId() {
-		return skillId;
-	}
-	public void setSkillId(String skillId) {
-		this.skillId = skillId;
+	public void setSkillIds(List<String> skillIds) {
+		this.skillIds = skillIds;
 	}
 	@Override
 	public String toString() {
-		return "TeamSkillVO [teamId=" + teamId + ", roleId=" + roleId + ", skillId=" + skillId + "]";
+		return "TeamSkillVO [teamId=" + teamId + ", roleId=" + roleId + ", skillIds=" + skillIds + "]";
 	}
+
 }

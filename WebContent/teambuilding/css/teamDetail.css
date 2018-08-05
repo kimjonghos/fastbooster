@@ -1,7 +1,95 @@
 @charset "UTF-8";
+
+.comment_comment_logo{
+	font-weight: bold; 
+	font-size: 30px;
+}
+.comment_btn_position{
+	width: 100px; 
+	margin-left: 20px;
+}
+.comment_input{
+	margin-left: 20px; 
+	border-radius: 7px; 
+	width: 300px;
+}
+.team_detail_indent{
+	margin-left: 35px;
+}
+.team_detail_textarea{
+	margin-left: 35px; 
+	width: 300px;
+}
+.team_detail_button_height{
+	line-height: 50px;
+}
+.team_detail_btn_center{
+	margin:auto;
+}
+.team_detail_leader{
+	margin-top: 30px; 
+	background-color: #e6f2ff;
+}
+.team_detail_sub{
+	line-height: 50px;
+	background-color: #ffebcc;
+}
+.team_detail_leader_effect{
+	border: none; 
+	cursor: pointer;
+}
+.team_detail_leader_width{
+	width: 350px;
+}
+.team_detail_modal_btn_position{
+	margin-left: 70px; 
+	margin-bottom: 20px; 
+	margin-top: 30px;
+}
+.team_detail_main{
+	margin: auto; 
+	padding: 20px; 
+	text-align: center;
+}
+.team_detail_main_text{
+	line-height: 50px; 
+	font-size: 25px;
+}
+.team_detail_interval{
+	margin-top: 30px; 
+	margin-bottom: 30px;
+}
+.team_detail_content_interval{
+	margin-top:20px;
+}
+.team_detail_modal_font{
+	font-size:25px;
+}
+.team_detail_modal_title{
+	color: #ff4111;
+	text-align: center;
+}
+.team_detail_modal_element{
+	margin-left:20px;
+}
+.team_detail_img_big{
+	width:150px;
+	height:150px;
+}
+.team_detail_img_mid{
+	width:100px;
+	height:100px;
+}
+.team_detail_img_small{
+	width:40px;
+	height:40px;
+}
+.team_detail_img_small_text{
+	margin-left: 10px; 
+	line-height: 40px;
+}
 .team_detail_row {
 	width: 860px;
-	margin: 0;
 }
 
 .team_detail_row_content {

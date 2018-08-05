@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.team_detail_row {
+	width: 860px;
+	margin: 0;
+}
+
+.team_detail_row_content {
+	width: 860px;
+	margin: 0 10px 10px 0;
+}
+.team_detail_row_detail {
+	width: 840px;
+}
+
+.team_detail_box_content {
+	background-color: #ffffff;
+	border-radius: 7px;
+}
+
+.team_detail_btn {
+	height: 30px;
+	line-height: 15px;
+	background-color: #f2f2f2;
+}
+
+.team_detail_btn_submit {
+	width: 140px;
+	padding: 0px 10px;
+	font-size: 17px;
+	color: #fff;
+	background-color: #ff4111;
+	opacity: 0.7;
+}
+
+.team_detail_btn_submit:hover {
+	color: #fff;
+	background-color: #ff4111;
+	border-color: #fff;
+	opacity: 1;
+}
+
+.team_detail_btn_color {
+	width: 140px;
+	padding: 0px 10px;
+	font-size: 23px;
+	color: #002b5a;
+	background-color: #ffffff;
+	border-color: #002b5a;
+}
+
+.team_detail_btn_color:hover {
+	color: #ff4111;
+	background-color: #f7e7e3;
+	border-color: #ff4111;
+}
+
+.team_detail_row_title {
+	margin-left:10px;
+	color: #ff4111;
+}
+
+.team_detail_row_text {
+	margin-left: 30px;
+}
+
+.team_detail_my_hr {
+	width: 780px;
+	margin: 20px 0;
+}
+
+.team_detail_text_color_red {
+	color: #ff4111;
+}
+
+.team_detail_text_font {
+	font-family: '나눔스퀘어라운드 ExtraBold';
+	font-size: 18px;
+	color: #002b5a;
+}
+
+.teamDetail {
+	font-weight: bold;
+}
+
+.team_detail_hover_opacity:hover {
+	opacity: 0.8;
+	background-color: #c3dcf7;
+}
+.inquiry_line_height {
+	line-height: 40px;
+}
+
+.inquiry_btn_height {
+	height: 40px;
+	margin-left: 5px;
+}

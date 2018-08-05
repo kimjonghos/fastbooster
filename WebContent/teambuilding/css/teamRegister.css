@@ -1,5 +1,19 @@
 @charset "UTF-8";
-
+.team_regist_modal_font{
+	font-size:25px;
+}
+.team_regist_modal_title{
+	color: #ff4111;
+	text-align: center;
+}
+.team_regist_modal_element{
+	margin-left:20px;
+}
+.team_regist_modal_btn_position{
+	margin-left: 170px; 
+	margin-bottom: 20px; 
+	margin-top: 30px;
+}
 .team_regist_hr {
 	width: 780px;
 	margin: 20px auto;
